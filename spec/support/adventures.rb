@@ -16,6 +16,7 @@ module Adventures
   end
 
   def self.continue
+    return finished if class_exists?('NextNumber')
     return level_4 if class_exists?('Anagram')
     return level_3 if class_exists?('FizzBuzzer')
     return level_2 if class_exists?('SecretKey')
@@ -52,7 +53,13 @@ module Adventures
     puts " To continue, 'git merge origin/hassan_the_heinous'"
   end
 
-
+  def self.finished
+    puts
+    puts " You have beaten us - for now..."
+    puts
+    puts " Until we meet again!"
+    puts
+  end
 
   def self.header
     puts
