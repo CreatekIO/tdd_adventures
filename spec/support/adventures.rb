@@ -26,7 +26,7 @@ module Adventures
     puts
     puts " Muahahhahahah. You think you're smart?! Wait until you meet the Evil Warlord... Hans!"
     puts
-    puts " To continue, 'git merge warlord_hans'"
+    puts " To continue, 'git merge origin/warlord_hans'"
   end
 
   def self.level_2
@@ -34,7 +34,7 @@ module Adventures
     puts " Nooooooo! You have defeated the Evil Warlord Hans, who has now crawled back to his cave."
     puts " I hope you're ready to challenge Dr. John Fizz-Buzz!"
     puts
-    puts " To continue, 'git merge dr_john_fizz_buzz'"
+    puts " To continue, 'git merge origin/dr_john_fizz_buzz'"
   end
 
   def self.level_3
@@ -42,14 +42,14 @@ module Adventures
     puts " Wow, you took your time on that one #sneer# I think your powers are weakening. Time to put"
     puts " you through your paces with the Reiss Piece Monster!"
     puts
-    puts " To continue, 'git merge reiss_piece_monster'"
+    puts " To continue, 'git merge origin/reiss_piece_monster'"
   end
 
   def self.level_4
     puts
     puts " Not so eash, huh? Are you ready to meet the next beast? Its Hassan The Heinous "
     puts
-    puts " To continue, 'git merge hassan_the_heinous'"
+    puts " To continue, 'git merge origin/hassan_the_heinous'"
   end
 
 
