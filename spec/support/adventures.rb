@@ -26,7 +26,7 @@ module Adventures
     puts
     puts " Muahahhahahah. You think you're smart?! Wait until you meet the Evil Warlord... Hans!"
     puts
-    puts " To continue, 'git merge warlord_dave'"
+    puts " To continue, 'git merge warlord_hans'"
   end
 
   def self.level_2
