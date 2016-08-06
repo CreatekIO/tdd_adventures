@@ -25,40 +25,55 @@ module Adventures
 
   def self.level_1
     puts
-    puts " Muahahhahahah. You think you're smart?! Wait until you meet the Evil Warlord... Hans!"
+    puts " Muahahhahahah. You think you're smart?! Wait until you meet the Evil "
+    puts " Warlord... Hans!"
     puts
     puts " To continue, 'git merge origin/warlord_hans'"
   end
 
   def self.level_2
     puts
-    puts " Nooooooo! You have defeated the Evil Warlord Hans, who has now crawled back to his cave."
-    puts " I hope you're ready to challenge Dr. John Fizz-Buzz!"
+    puts " Nooooooo! You have defeated the Evil Warlord Hans, who has now crawled "
+    puts " back to his cave. I hope you're ready to challenge Dr. John Fizz-Buzz!"
     puts
     puts " To continue, 'git merge origin/dr_john_fizz_buzz'"
   end
 
   def self.level_3
     puts
-    puts " Wow, you took your time on that one #sneer# I think your powers are weakening. Time to put"
-    puts " you through your paces with the Reiss Piece Monster!"
+    puts " Wow, you took your time on that one #sneer# I think your powers are "
+    puts " weakening. Time to put you through your paces with the Reiss Piece "
+    puts " Monster!"
     puts
     puts " To continue, 'git merge origin/reiss_piece_monster'"
   end
 
   def self.level_4
     puts
-    puts " Not so eash, huh? Are you ready to meet the next beast? Its Hassan The Heinous "
+    puts ' ---------------------------------------------------------------------'
+    puts " Not so eash, huh? Are you ready to meet the next beast? Its Hassan "
+    puts " The Heinous! "
     puts
     puts " To continue, 'git merge origin/hassan_the_heinous'"
   end
 
   def self.finished
+
     puts
-    puts " You have beaten us - for now..."
+    puts ' Congratulations, you have defeated all the monsters. You are a true '
+    puts ' TDD Adventurer!!! '
     puts
-    puts " Until we meet again!"
+    puts ' . '
+    puts ' . '
+    puts ' . '
     puts
+    puts '    ___________ .__                   ___________              .___'
+    puts '    \__    ___/ |  |__     ____       \_   _____/   ____     __| _/'
+    puts '      |    |    |  |  \  _/ __ \       |    __)_   /    \   / __ |'
+    puts '      |    |    |   Y  \ \  ___/       |        \ |   |  \ / /_/ |'
+    puts '      |____|    |___|  /  \___  >     /_______  / |___|  / \____ |'
+    puts '                     \/       \/              \/       \/       \/'
+
   end
 
   def self.header
