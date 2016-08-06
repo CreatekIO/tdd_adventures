@@ -11,10 +11,11 @@ Simple clone this repo and run
 
 Then run the `rspec` command. All the instructions you need will be provided, but just so you know what to expect, it works like this
 
-  run `rspec`
-  tests all fail
-  write code to make the tests pass
-  run `rspec` again
-  tests pass
-  refactor!
-  `get merge` the next
+* run `rspec`
+* tests all fail
+* write code to make the tests pass
+* run `rspec` again
+* tests pass
+* refactor!
+* `get merge` the next challenge (instructions will be provided)
+* eat, sleep, code, repeat
