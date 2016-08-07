@@ -6,14 +6,10 @@ module Adventures
       puts " Welcome to " + "TDD Adventures!".bold
       puts
       puts ' ---------------------------------------------------------------------'
-      puts "Evil Villians, Warlords and Monsters across the land have stolen your"
-      puts "code. Luckily for you the tests have been left behind. You mush "
-      puts "navigate your way across the land, solving the clues and recovering "
-      puts "the code to complete the mission."
-
-      puts " Your mission is to recover your code using only the tests as your"
-      puts " guide. Once you fix the first test you will be given further"
-      puts " instructions."
+      puts " Evil Villians, Warlords and Monsters across the land have stolen your"
+      puts " code. Luckily for you the tests have been left behind. You must"
+      puts " navigate your way across the land, solving the clues and recovering "
+      puts " the code to complete the mission."
       puts
       puts " Good luck!"
       puts
@@ -41,7 +37,7 @@ module Adventures
 
   def self.level_2
     puts
-    puts " Nooooooo! You have defeated the Evil Warlord Hans, who has now crawled "
+    puts " Nooooooo! You have defeated the Evil Warlord Hans, who has now crawled"
     puts " back to his cave. I hope you're ready to challenge Dr. John Fizz-Buzz!"
     puts
     puts " To continue, 'git merge origin/dr_john_fizz_buzz'"
@@ -49,8 +45,8 @@ module Adventures
 
   def self.level_3
     puts
-    puts " Wow, you took your time on that one #sneer# I think your powers are "
-    puts " weakening. Time to put you through your paces with the Reiss Piece "
+    puts " Wow, you took your time on that one #sneer# I think your powers are"
+    puts " weakening. Time to put you through your paces with the Reiss Piece"
     puts " Monster!"
     puts
     puts " To continue, 'git merge origin/reiss_piece_monster'"
