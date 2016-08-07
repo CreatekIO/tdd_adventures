@@ -1,8 +1,16 @@
+require 'colorize'
+
 module Adventures
   def self.intro
     unless File.file?('lib/calculator.rb')
-      puts " Welcome to TDD Adventures!"
+      puts " Welcome to " + "TDD Adventures!".bold
       puts
+      puts ' ---------------------------------------------------------------------'
+      puts "Evil Villians, Warlords and Monsters across the land have stolen your"
+      puts "code. Luckily for you the tests have been left behind. You mush "
+      puts "navigate your way across the land, solving the clues and recovering "
+      puts "the code to complete the mission."
+
       puts " Your mission is to recover your code using only the tests as your"
       puts " guide. Once you fix the first test you will be given further"
       puts " instructions."
@@ -78,18 +86,18 @@ module Adventures
 
   def self.header
     puts
-    puts '    __________  ____ '
-    puts '   /_  __/ __ \/ __ \ '
-    puts '    / / / / / / / / / '
-    puts '   / / / /_/ / /_/ / '
-    puts '  /_/ /_____/_____/ '
-    puts '              ___       __                 __ '
-    puts '             /   | ____/ /   _____  ____  / /___  __________  _____ '
-    puts '            / /| |/ __  / | / / _ \/ __ \/ __/ / / / ___/ _ \/ ___/ '
-    puts '           / ___ / /_/ /| |/ /  __/ / / / /_/ /_/ / /  /  __(__  ) '
-    puts '          /_/  |_\__,_/ |___/\___/_/ /_/\__/\__,_/_/   \___/____/ '
-    puts
-    puts ' ---------------------------------------------------------------------'
+    puts '    __________  ____                                                   '.light_blue
+    puts '   /_  __/ __ \/ __ \               /                                  '.light_blue
+    puts '    / / / / / / / / /       *//////{<>==================-              '.light_blue
+    puts '   / / / /_/ / /_/ /                \                                  '.light_blue
+    puts '  /_/ /_____/_____/                                                    '.light_blue
+    puts '              ___       __                 __                          '.light_blue
+    puts '             /   | ____/ /   _____  ____  / /___  __________  _____    '.light_blue
+    puts '            / /| |/ __  / | / / _ \/ __ \/ __/ / / / ___/ _ \/ ___/    '.light_blue
+    puts '           / ___ / /_/ /| |/ /  __/ / / / /_/ /_/ / /  /  __(__  )     '.light_blue
+    puts '          /_/  |_\__,_/ |___/\___/_/ /_/\__/\__,_/_/   \___/____/      '.light_blue
+    puts '                                                                       '.light_blue
+    puts ' --------------------------------------------------------------------- '.light_blue.bold
   end
 
   def self.class_exists?(class_name)
@@ -99,3 +107,7 @@ module Adventures
     return false
   end
 end
+
+
+
+
