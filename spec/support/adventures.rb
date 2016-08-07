@@ -75,21 +75,28 @@ module Adventures
     puts ' . '
     puts ' . '
     puts
-    puts '    ___________ .__                   ___________              .___'
-    puts '    \__    ___/ |  |__     ____       \_   _____/   ____     __| _/'
-    puts '      |    |    |  |  \  _/ __ \       |    __)_   /    \   / __ |'
-    puts '      |    |    |   Y  \ \  ___/       |        \ |   |  \ / /_/ |'
-    puts '      |____|    |___|  /  \___  >     /_______  / |___|  / \____ |'
-    puts '                     \/       \/              \/       \/       \/'
+    puts '    ___________ .__                   ___________              .___'.light_blue
+    puts '    \__    ___/ |  |__     ____       \_   _____/   ____     __| _/'.light_blue
+    puts '      |    |    |  |  \  _/ __ \       |    __)_   /    \   / __ |'.light_blue
+    puts '      |    |    |   Y  \ \  ___/       |        \ |   |  \ / /_/ |'.light_blue
+    puts '      |____|    |___|  /  \___  >     /_______  / |___|  / \____ |'.light_blue
+    puts '                     \/       \/              \/       \/       \/'.light_blue
+    puts
+    sleep 2
+    puts '                                                          FOR NOW!'.red
+    sleep 1.5
+    puts '                                                 ha ha haaaaaaaaaa'.red
+    sleep 1.5
+    puts '                                               mu ha haaaa haaaaaa'.red
 
   end
 
   def self.header
     puts
     puts '    __________  ____                                                   '.light_blue
-    puts '   /_  __/ __ \/ __ \               /                                  '.light_blue
-    puts '    / / / / / / / / /       *//////{<>==================-              '.light_blue
-    puts '   / / / /_/ / /_/ /                \                                  '.light_blue
+    puts '   /_  __/ __ \/ __ \    '.light_blue + '           /                     '.yellow
+    puts '    / / / / / / / / /    '.light_blue + '   *//////{<>==================- '.yellow
+    puts '   / / / /_/ / /_/ /     '.light_blue + '           \                     '.yellow
     puts '  /_/ /_____/_____/                                                    '.light_blue
     puts '              ___       __                 __                          '.light_blue
     puts '             /   | ____/ /   _____  ____  / /___  __________  _____    '.light_blue
