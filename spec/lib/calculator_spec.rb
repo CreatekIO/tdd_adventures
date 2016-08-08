@@ -1,4 +1,4 @@
-describe Calculator do
+describe 'Calculator' do
 
   describe '#add' do
     it 'should be able to add numbers' do
