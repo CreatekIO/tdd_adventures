@@ -17,7 +17,7 @@ become accustomed to TDD with Ruby and RSpec, in a fun and interesting way. We h
 
 
 ## How it works
-Clone the repo and run bundle like so:
+Clone this repo and run `bundle` like so:
 ```bash
 git clone git@github.com:CreatekIO/tdd_adventures.git
 cd tdd_adventures
@@ -27,11 +27,11 @@ bundle install
 RSpec will guild you the rest of the way, simple run ```rpsec``` and follow the instructions. The flow of the game is like this: 
 
 * run `rspec`
-* tests all fail
+* tests fail
 * write code to make the tests pass
 * run `rspec` again
 * tests all pass
 * refactor!
-* `get merge branch_name` to proceed to the next challenge (instructions provided by ```rspec```)
+* `get merge branch_name` to proceed to the next challenge (instructions provided by `rspec`)
 * eat, sleep, code, repeat 
  

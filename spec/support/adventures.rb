@@ -5,16 +5,12 @@ module Adventures
     unless File.file?('lib/calculator.rb')
       puts " Welcome to " + "TDD Adventures!".bold
       puts
-      puts ' ---------------------------------------------------------------------'
-      puts " Evil Villians, Warlords and Monsters across the land have stolen your"
+      puts " Evil villians, warlords and monsters across the land have stolen your"
       puts " code. Luckily for you the tests have been left behind. You must"
       puts " navigate your way across the land, solving the clues and recovering "
       puts " the code to complete the mission."
       puts
       puts " Good luck!"
-      puts
-      puts " To continue, run:"
-      puts "   rspec"
       puts
     end
   end
