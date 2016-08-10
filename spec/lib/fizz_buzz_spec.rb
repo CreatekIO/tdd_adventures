@@ -1,4 +1,4 @@
-describe FizzBuzzer do
+describe 'FizzBuzzer' do
 
   describe '#get' do
     it 'should get Fizz if the number is a multiple of 3' do
