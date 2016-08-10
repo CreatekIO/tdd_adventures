@@ -1,4 +1,4 @@
-describe SecretKey do
+describe 'SecretKey' do
   let(:unencrypted_list) { [1, 3, 27, 16, 3, 11, 21] }
   let(:key) { 3 }
   let(:encrypted_list) { [1, 27, 16, 11, 21] }
