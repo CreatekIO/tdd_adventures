@@ -1,4 +1,4 @@
-describe Anagram do
+describe 'Anagram' do
 
   describe '.generate' do
 
